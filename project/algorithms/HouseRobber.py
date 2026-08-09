@@ -30,3 +30,20 @@ class Solution:
             return max_rob
         
         return max(dynamic(nums[:-1]), dynamic(nums[1:]), nums[0])
+
+    def rob3(self, root: Optional[TreeNode]) -> int:
+        def dfs(node):
+            if not node:
+                return 0, 0
+            
+            left_rob, left_skip = dfs(node.left)
+            right_rob, right_skip = dfs(node.right)
+
+            rob_node = node.val + left_skip + right_skip
+            skip_node = max(left_skip, left_rob) + max(right_skip, right_rob)
+
+            return rob_node, skip_node
+        
+        rob_root, skip_root = dfs(root)
+
+        return max(rob_root, skip_root)
