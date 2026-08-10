@@ -1,4 +1,4 @@
-from algorithms.RepeatedDNASequences import *
+from algorithms.IsomorphicStrings import *
 from dataStructures import *
 
-print(Solution().findRepeatedDnaSequences("ACCCTCCCACTTGGATGCCGCACGTGTCGACTAACCTTACATTGTCCCCCCACCTCCAGACGGTTAACTCTTGAAATGGGGGAATAGCTGCTTGCGCGTG"))
+print(Solution().isIsomorphic("paper", "title"))
