@@ -1,4 +1,4 @@
-from algorithms.IsomorphicStrings import *
+from algorithms.AddDigits import *
 from dataStructures import *
 
-print(Solution().isIsomorphic("paper", "title"))
+print(Solution().addDigits(38))
