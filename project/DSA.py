@@ -1,4 +1,4 @@
-from algorithms.AddDigits import *
+from algorithms.PrimeNumberOfSetBitsInBinaryRepresentation import *
 from dataStructures import *
 
-print(Solution().addDigits(38))
+print(Solution().countPrimeSetBits(10, 15))
