@@ -1,11 +1,8 @@
-from algorithms.ImplementTriePrefixTree import *
+from algorithms.RangeSumQuery import *
 from dataStructures import *
 
 # print(Solution().countPrimeSetBits(10, 15))
-obj = Trie()
-obj.insert("apple")
-print(obj.search("apple"))
-print(obj.search("app"))
-print(obj.startsWith("app"))
-obj.insert("app")
-print(obj.search("app"))
+obj = NumArray([1, 3, 5])
+print(obj.sumRange(0, 2))
+obj.update(1, 2)
+print(obj.sumRange(0, 2))

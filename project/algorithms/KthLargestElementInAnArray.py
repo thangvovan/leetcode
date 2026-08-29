@@ -3,9 +3,9 @@ from typing import List
 
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        minheap = []
+        maxheap = []
         for i in nums:
-            heapq.heappush(minheap, i)
-            if len(minheap) > k:
-                heapq.heappop(minheap)
-        return minheap[0]
+            heapq.heappush(maxheap, -i)
+        for _ in range(k-1):
+            heapq.heappop(maxheap)
+        return -maxheap[0]
