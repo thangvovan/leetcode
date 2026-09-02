@@ -1,4 +1,4 @@
-from algorithms.MaximalSquare import *
+from algorithms.RectangleArea import *
 from dataStructures import *
 
-print(Solution().maximalSquare([["1","0"],["0","0"]]))
+print(Solution().computeArea(-3, -3, 3, 3, 4, -5, 5, 0))
