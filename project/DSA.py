@@ -1,4 +1,4 @@
-from algorithms.CountCompleteTreeNodes import *
+from algorithms.SummaryRanges import *
 from dataStructures import *
 
-print(Solution().countNodes(binaryTree([1,2,3,4,5,6,7,8,9,10,11])))
+print(Solution().summaryRanges([0,2,3,4,6,8,9]))
