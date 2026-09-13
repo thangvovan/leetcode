@@ -30,7 +30,9 @@
         "activityBarTop.background": "#26232e",
         "activityBarTop.foreground": "#e7e7e7",
         "activityBarTop.inactiveForeground": "#e7e7e799",
-        "commandCenter.foreground": "#e7e7e7"
+        "commandCenter.foreground": "#e7e7e7",
+        "activityBar.activeBorder": "#e7e7e7",
+        "activityBarTop.activeBorder": "#e7e7e7"
     },
     "peacock.color": "#0e0d11",
     "python-envs.defaultEnvManager": "ms-python.python:conda",
