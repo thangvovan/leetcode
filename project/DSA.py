@@ -1,4 +1,4 @@
-from algorithms.KthSmallestElementInABST import *
+from algorithms.PalindromeLinkedList import *
 from dataStructures import *
 
-print(Solution().kthSmallest(binaryTree([5,3,6,2,4,null,null,1]), 3))
+print(Solution().isPalindrome(linkedList([1,2])))
