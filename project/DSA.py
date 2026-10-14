@@ -1,4 +1,4 @@
-from algorithms.PalindromeLinkedList import *
+from algorithms.MissingNumber import *
 from dataStructures import *
 
-print(Solution().isPalindrome(linkedList([1,2])))
+print(Solution().missingNumber([9,6,4,2,3,5,7,0,1]))
