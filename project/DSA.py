@@ -1,4 +1,4 @@
-from algorithms.MissingNumber import *
+from algorithms.ArrayPartition import *
 from dataStructures import *
 
-print(Solution().missingNumber([9,6,4,2,3,5,7,0,1]))
+print(Solution().arrayPairSum([6,2,6,5,1,2]))
